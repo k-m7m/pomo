@@ -7,7 +7,9 @@ authors = [
     { name = "kotaro", email = "kt.minami34319@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "prompt-toolkit>=3.0.52",
+]
 
 [project.scripts]
 pomo = "pomo.main:main"
@@ -18,5 +20,3 @@ build-backend = "uv_build"
 
 [tool.ruff]
 target-version = "py314"
-
-select = ["ALL"]
